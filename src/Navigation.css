@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background-color: #333333; /* Dark button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #555555; /* Slightly lighter hover effect */
+}
+
+.nav-btn:first-child {
+  margin-right: 10px; /* Space between buttons */
+}

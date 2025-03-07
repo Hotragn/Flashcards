@@ -1,0 +1,16 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url("https://via.placeholder.com/1600x900?text=Plant+Background"); /* Replace with your actual background */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 20px;
+}

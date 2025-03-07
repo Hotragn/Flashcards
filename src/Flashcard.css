@@ -1,0 +1,50 @@
+.flashcard {
+  width: 400px;
+  height: 250px;
+  margin: 20px auto;
+  perspective: 1000px; /* Enables the flipping effect */
+}
+
+.flashcard div {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flashcard .front {
+  background-color: #ffffff; /* White for front */
+}
+
+.flashcard .back {
+  background-color: #a8d5ba; /* Light green for back */
+}
+
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.flashcard .front,
+.flashcard .back {
+  backface-visibility: hidden; /* Ensures only one side is visible at a time */
+}
+
+.flashcard .front {
+  transform: rotateY(0deg);
+}
+
+.flashcard .back {
+  transform: rotateY(180deg);
+}
