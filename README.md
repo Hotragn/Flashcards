@@ -1,4 +1,4 @@
-# Web Development Project 2 - *Flashcards App*
+# Web Development Project 3 - *Flashcards App*
 
 Submitted by: **Hotragn Pettugani**
 
@@ -16,23 +16,24 @@ The following **required** functionality is completed:
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
 
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
+
 The following **optional** features are implemented:
 
-- [ ] Cards contain images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-- [ ] *Green background for plant-related cards implemented*
+- [x] A shuffle button is used to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [x] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
-The following **additional** features are implemented:
-
-* [ ] Smooth animations for flipping cards using CSS
-* [ ] Navigation buttons styled with hover effects
-* [ ] Background image added for enhanced aesthetics
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://submissions.us-east-1.linodeobjects.com/web102/ghukp_6w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://submissions.us-east-1.linodeobjects.com/web102/ghukp_6w.gif](https://submissions.us-east-1.linodeobjects.com/web102/o6ocM6Zs.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
