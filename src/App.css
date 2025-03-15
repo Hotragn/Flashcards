@@ -14,3 +14,24 @@ h1 {
 p {
   margin-bottom: 20px;
 }
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}

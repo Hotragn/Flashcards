@@ -1,4 +1,3 @@
-//flashcard.js
 import React from "react";
 import "./Flashcard.css";
 
